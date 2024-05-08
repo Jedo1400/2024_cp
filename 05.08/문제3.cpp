@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+    srand((unsigned)time(NULL));
     short answer;
     cout << "가위 = 0, 바위 = 1, 보 = 2" << endl;
     cin >> answer;
