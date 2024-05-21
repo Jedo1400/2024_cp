@@ -11,10 +11,6 @@ long long pow(int n, int m) {
     return i;
 }
 
-bool isMultiple(int num, int n) {
-    return !(num % n);
-}
-
 void printBinHex(int n) {
     long long i, j;
     cout << "0x";
